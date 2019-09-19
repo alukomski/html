@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tryin'</title>
+    <style>
+    div {
+
+        padding: 5px;
+        margin: 5px;
+        font-family: fantasy;
+        
+    }
+
+    #block1 {
+        background-color: crimson;
+        border: 3px solid greenyellow;
+        z-index: 3;
+        position: relative;
+        width: 200px;
+        height: 150px;
+        
+    }
+
+    #block2 {
+        background-color: blue;
+        border: 3px solid greenyellow;
+        margin-left: 50px;
+        margin-top: -50px;
+        z-index: 2;
+        position: relative;
+        width: 200px;
+        height: 150px;
+    }
+
+    #block2 h3 {
+        text-align: center;
+        padding: 50px;
+    }
+    #block1 h3 {
+        text-align: center;
+        padding: 50px;
+    }
+    #bigframe {
+        border: 5px solid purple;
+        width: 50%;
+        position:relative;
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
+        
+
+    }
+    #leftframe {
+        border: 2px solid gold;
+        float: left;
+    
+    }
+    #rightframe {
+        border: 2px solid gold;
+        float: right;
+
+    }
+    #downrightbox {
+        border: 10px solid red;
+        padding: 5px;
+        margin: 5px;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        background-color: antiquewhite;
+        
+    }
+    #downrightbox h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        color: yellowgreen;
+        padding: 25px;
+    }
+    #footer {
+        border: 5px solid purple;
+        width: 50%;
+        position:relative;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20;
+        margin-top: 50px;
+        
+    }
+    #footer h5 {
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+  <div id=main_page>
+    <div id=block1><h3>Czerwony</h3></div>
+    <div id=block2><h3>Niebieski</h3></div>
+
+    <div id=bigframe>
+
+    <div id=leftframe>
+        <h5>Lewa Ramka</h5>
+    </div>
+    <div id=rightframe>
+        <h5>Prawa Ramka</h5>
+    </div>
+
+          </div>
+
+    <div id=footer><h5>FOOTER TEXT TEXT TEXT TEXT TEXT TEXT TEXT</h5></div>
+    <div id=downrightbox> <h1>MEH</h1> </div>
+
+
+    </div>
+</body>
+</html>
